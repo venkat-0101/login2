@@ -7,15 +7,6 @@
 
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Slide Navbar</title>
-	<link rel="stylesheet" type="text/css" href="slide navbar style.css">
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
-</head>
-<body>
 	<div class="main">  	
 		<input type="checkbox" id="chk" aria-hidden="true">
 
@@ -30,7 +21,7 @@
 			</div>
 
 			<div class="login">
-				<form method="post" action="<% request.getContextPath(); %>/loginValidation/Demo">
+				<form method="post" action="<%=request.getContextPath()%>/Demo">
 					<label for="chk" aria-hidden="true">Login</label>
 					<input type="email" name="email" placeholder="Email" required="">
 					<input type="password" name="pswd" placeholder="Password" required="">

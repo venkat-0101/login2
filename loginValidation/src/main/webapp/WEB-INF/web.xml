@@ -10,10 +10,6 @@
   	<description></description>
   	<servlet-class>controllers.Demo</servlet-class>
   </servlet>
-  <servlet-mapping>
-  	<servlet-name>Demo</servlet-name>
-  	<url-pattern>/Demo</url-pattern>
-  </servlet-mapping>
   <error-page>
   <error-code>404</error-code>
   <location>/errorPage.jsp</location>
