@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Sign up / Login Form</title>
+  <title>Login / Sign up</title>
   <link rel="stylesheet" href="assets/signinstyle.css">
 
 </head>
@@ -30,7 +30,7 @@
 			</div>
 
 			<div class="login">
-				<form>
+				<form method="post" action="<% request.getContextPath(); %>/loginValidation/Demo">
 					<label for="chk" aria-hidden="true">Login</label>
 					<input type="email" name="email" placeholder="Email" required="">
 					<input type="password" name="pswd" placeholder="Password" required="">
